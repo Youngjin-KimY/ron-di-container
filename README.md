@@ -15,3 +15,13 @@ public class X { }
 @Inject(status="NOT_SINGLETON")
 public class Y {}
 ```
+
+## how to implement this package
+### maven: adding this xml
+```xml
+    <dependency>
+      <groupId>com.rooon</groupId>
+      <artifactId>reflection-tutorial</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+```
