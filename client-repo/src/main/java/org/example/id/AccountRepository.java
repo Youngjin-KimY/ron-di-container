@@ -1,4 +1,4 @@
-package com.rooon.di;
+package org.example.id;
 
 import java.math.BigDecimal;
 import java.util.HashMap;

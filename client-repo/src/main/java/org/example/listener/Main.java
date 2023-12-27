@@ -1,4 +1,4 @@
-package com.rooon.listener;
+package org.example.listener;
 
 import com.rooon.di.listener.ListenerInvoker;
 

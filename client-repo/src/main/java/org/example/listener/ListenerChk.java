@@ -1,4 +1,4 @@
-package com.rooon.listener;
+package org.example.listener;
 
 import com.rooon.di.listener.Listener;
 
@@ -9,3 +9,4 @@ public class ListenerChk {
         System.out.println("Listen: "+ data);
     }
 }
+

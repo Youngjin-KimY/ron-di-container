@@ -1,4 +1,6 @@
-package com.rooon.di;
+package org.example.id;
+
+import com.rooon.di.inject.Inject;
 
 public class AccountService {
     @Inject

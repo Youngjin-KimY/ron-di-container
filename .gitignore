@@ -38,7 +38,8 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-/user-repo/target/
-/user-repo/.idea/
+/client-repo/build/
+
 /reflection-repo/target/
 /reflection-repo/.idea/
+/reflection-repo/.gradle/

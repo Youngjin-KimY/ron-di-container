@@ -1,17 +1,14 @@
-package com.rooon;
+package org.example.id;
 
-import com.rooon.di.AccountDetailService;
-import com.rooon.di.AccountService;
-import com.rooon.di.ContainerService;
+import com.rooon.di.inject.ContainerService;
+import org.junit.jupiter.api.Test;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
+import static org.junit.jupiter.api.Assertions.*;
+
+class AccountServiceTest {
+
+    @Test
+    public void diTest() {
         AccountService accountService = ContainerService.getObject(AccountService.class);
         AccountDetailService accountDetailService = ContainerService.getObject(AccountDetailService.class);
         System.out.println(accountService.getAccountById(1L));
@@ -19,4 +16,5 @@ public class App
         System.out.println( "Hello World!\n" );
         accountDetailService.updateAccountInfo();
     }
+
 }
