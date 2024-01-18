@@ -39,7 +39,10 @@ bin/
 .DS_Store
 
 /client-repo/build/
+/client-repo/.idea/
+
 
 /reflection-repo/target/
 /reflection-repo/.idea/
 /reflection-repo/.gradle/
+/reflection-repo/build/
